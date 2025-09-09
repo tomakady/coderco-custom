@@ -8,6 +8,10 @@ inputs:
     required: true
     default: "Hello"
 
+outputs:
+  time:
+    description: time greeted
+
 runs:
   using: "node20"
   main: "dist/index.js"
