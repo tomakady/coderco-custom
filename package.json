@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^1.11.1",
+    "@vercel/ncc": "^0.38.3"
   },
   "devDependencies": {},
   "scripts": {
